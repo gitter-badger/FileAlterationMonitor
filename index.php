@@ -5,7 +5,7 @@ require_once 'FileAlterationMonitor/FileAlterationMonitor.php';
 
 //MY_FOLDER_TO_MONITOR = 'sample/';
 
-$f = new FileAlterationMonitor($MY_FOLDER_TO_MONITOR)
+$f = new FileAlterationMonitor($MY_FOLDER_TO_MONITOR);
 
 while (TRUE)
 {
